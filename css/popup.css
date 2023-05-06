@@ -1,0 +1,57 @@
+.gpt-copy-icon {
+    width: 15px;
+    background-color: pink;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    padding: 3px;
+}
+
+.gpt-popup {
+    width: 150px;
+    min-height: 50px;
+    font-size: 13px;
+    display: flex;
+}
+
+.gpt-popup .gpt-btn-control{
+    text-align: right;
+}
+
+/* .gpt-popup button {
+    min-width: 45px;
+} */
+
+.gpt-popup {
+    position: relative;
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.gpt-close-btn {
+    /* position: absolute; */
+    /* top: 5px;
+    right: 5px;
+    font-size: 18px;
+    background: none;
+    border: none;
+    cursor: pointer; */
+    background-color: rgb(245, 245, 245);
+    box-sizing: content-box;
+    cursor: pointer;
+    height: 19px;
+    width: 19px;
+    z-index: 21474836499;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(220, 220, 220);
+    border-image: initial;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.gpt-close-btn:focus {
+    outline: none;
+}
